@@ -1,0 +1,42 @@
+
+/* Barra de Navegacion */
+
+.logo-nav-contiene{
+	display: flex;
+	justify-content: space-around;
+	justify-content: center;
+	flex-flow: row wrap;
+	font-family: 'Staatliches', cursive;
+	 letter-spacing: 4px;
+	/* font-family: 'Monoton', cursive; */
+	background-color: black;
+}
+
+.botonera {
+	margin: 0px;;
+	padding: 0;
+	margin-right: 10px;
+	
+	}
+.botonera ul{
+	list-style: none;
+
+}
+.botonera ul li {
+	display: inline-block;
+	
+}
+.botonera ul li a {
+	display: block;
+	color:white;
+	text-decoration: none;
+	padding: 30px;	
+}
+.botonera ul li :hover {
+	background: #A9A9A9 ;
+	border-radius: 1px ; 
+	transform: scale(0.8);
+	transition:all 0.2s ease 0.3s;
+	border: solid black 2px;
+	
+}
