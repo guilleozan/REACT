@@ -13,7 +13,7 @@ const HomePage =(props) => {
       src ="imagenes/p00001.jpg"
       alt="First slide"
     />
-    <Carousel.Caption>
+      <Carousel.Caption>
       <h3>VIAJA</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>

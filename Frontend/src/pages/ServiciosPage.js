@@ -8,7 +8,11 @@ import Dropdown from 'react-bootstrap/Dropdown'
 const Servicios =(props) => {
     return( 
     
-
+    <div className=''>
+      <br></br>
+      <br></br>
+        <h2 className='boton'>Explora distintas actividades</h2> 
+        <br></br>
      <div className="contenedor-actividad">
 
 
@@ -187,6 +191,8 @@ const Servicios =(props) => {
            
           </Card.Body>
         </Card>
+      </div>
+
       </div>
 
 
